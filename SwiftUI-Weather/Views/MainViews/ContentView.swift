@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showModal = false
     var body: some View {
       
         ZStack {
@@ -31,10 +32,17 @@ struct ContentView: View {
                 }
                 .padding(.bottom,30)
                 ZStack {
-                    Rectangle()
-                        .cornerRadius(20)
-                        .opacity(0.25)
-                        .frame(width: 380, height: 160)
+                    Button(action: {
+                        self.showModal = true
+                    }){
+                        Rectangle()
+                            .cornerRadius(20)
+                            .opacity(0.25)
+                            .frame(width: 380, height: 160)
+                    }
+                    .sheet(isPresented: self.$showModal) {
+                        ModalView()
+                    }
                     VStack {
                         Text("오후 9시쯤 흐린 상태가 예상됩니다. 돌풍의 풍속은 최대 \n8m/s입니다.")
                             .font(.system(size: 15))
@@ -86,7 +94,6 @@ struct ContentView: View {
                 }
             }
         }
-       
     }
 }
 
