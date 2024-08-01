@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ModalView: View {
+    let day: Int
     @Environment(\.presentationMode) var presentation
     var category: [String : String] = ["기상 상태" : "cloud.sun.fill", "자외선 지수" : "sun.max.fill", "바람" : "wind", "강수량" : "drop", "습도" : "humidity"]
     @State private var selectedCategory = "기상 상태"
@@ -100,7 +101,7 @@ struct ModalView: View {
 }
 
 #Preview {
-    ModalView()
+    ModalView(day: 1)
 }
 
 struct DateView: View {

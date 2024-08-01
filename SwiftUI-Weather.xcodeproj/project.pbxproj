@@ -15,6 +15,7 @@
 		0B8A78E42C59EF2F0042E5D8 /* WeatherForecastRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8A78E32C59EF2F0042E5D8 /* WeatherForecastRow.swift */; };
 		0B8A78E62C5A04480042E5D8 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8A78E52C5A04480042E5D8 /* ModalView.swift */; };
 		0B8A78EB2C5A16810042E5D8 /* TemporatureGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8A78EA2C5A16810042E5D8 /* TemporatureGraphView.swift */; };
+		0BD9B8262C5B45B4008BBDB8 /* ProblemReportModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD9B8252C5B45B4008BBDB8 /* ProblemReportModelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		0B8A78E32C59EF2F0042E5D8 /* WeatherForecastRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastRow.swift; sourceTree = "<group>"; };
 		0B8A78E52C5A04480042E5D8 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		0B8A78EA2C5A16810042E5D8 /* TemporatureGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporatureGraphView.swift; sourceTree = "<group>"; };
+		0BD9B8252C5B45B4008BBDB8 /* ProblemReportModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemReportModelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				0B8A78E52C5A04480042E5D8 /* ModalView.swift */,
 				0B8A78EA2C5A16810042E5D8 /* TemporatureGraphView.swift */,
+				0BD9B8252C5B45B4008BBDB8 /* ProblemReportModelView.swift */,
 			);
 			path = ModalViews;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				0B8A78E42C59EF2F0042E5D8 /* WeatherForecastRow.swift in Sources */,
 				0B8A78E02C58F2070042E5D8 /* WeatherForecast.swift in Sources */,
 				0B8A78D42C58E4F50042E5D8 /* ContentView.swift in Sources */,
+				0BD9B8262C5B45B4008BBDB8 /* ProblemReportModelView.swift in Sources */,
 				0B8A78D22C58E4F50042E5D8 /* SwiftUI_WeatherApp.swift in Sources */,
 				0B8A78EB2C5A16810042E5D8 /* TemporatureGraphView.swift in Sources */,
 				0B8A78E62C5A04480042E5D8 /* ModalView.swift in Sources */,

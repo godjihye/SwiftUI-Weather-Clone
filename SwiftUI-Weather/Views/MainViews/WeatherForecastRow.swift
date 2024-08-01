@@ -41,15 +41,18 @@ struct WeatherForecastRow: View {
                         .cornerRadius(10)
                         .frame(width: 90, height: 5)
                         .foregroundColor(Color.bar)
-                    ZStack {
-                        Circle()
-                            .frame(width: 10, height: 10)
-                            .offset(x: 10)
-                            .opacity(0.2)
-                        Circle()
-                            .foregroundColor(.white)
-                            .frame(width: 5,height: 5)
-                            .offset(x: 10)
+                    
+                    if date == "오늘" {
+                        ZStack {
+                            Circle()
+                                .frame(width: 10, height: 10)
+                                .offset(x: 10)
+                                .opacity(0.2)
+                            Circle()
+                                .foregroundColor(.white)
+                                .frame(width: 5,height: 5)
+                                .offset(x: 10)
+                        }
                     }
                 }
                 Text("\(maxTemp)°")
